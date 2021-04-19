@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#P#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "paints:planks"
+        },
+        "P": {
+            "item": "minecraft:blue_dye"
+        }
+    },
+    "result": {
+        "item": "paints:blue_oak_planks",
+        "count": 8
+    },
+    "group": "building_blocks"
+}
