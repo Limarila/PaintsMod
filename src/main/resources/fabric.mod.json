@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "paints",
+  "version": "1.0.0",
+
+  "name": "Paints",
+  "description": "Adds dyable planks to Minecraft",
+  "authors": [
+    "Limarila"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/Limarila/PaintsMod.git"
+  },
+
+  "license": "CC BY-NC-SA",
+  "icon": "assets/paints/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.limarila.paints.Paints"
+    ]
+  },
+  "mixins": [
+    ""
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
